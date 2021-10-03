@@ -10,16 +10,17 @@ SOURCES = $(shell find . -name "*.cc")
 OBJECTS = $(patsubst %.cc, %.o, $(SOURCES))
 
 LIBS = \
-	/usr/local/lib/libfst.so \
-	/usr/local/lib/libfstngram.so \
-	/usr/lib64/atlas/libsatlas.so
+	-lfst \
+	-lfstngram \
+	-lcblas \
+	-llapack_atlas
 
 BASE = $(USER)
 
 all: $(EXECUTABLE)
 
 $(EXECUTABLE): $(OBJECTS)
-	$(CXX) $(LDFLAGS) $(LIBS) $(LDLIBS) $^ -o $@
+	$(CXX) $(LDFLAGS) -o $@ $^ $(LIBS) $(LDLIBS)
 
 %.o: %.cc
 	$(CXX) -c $(CXXFLAGS) $(INCLUDE) $< -o $@

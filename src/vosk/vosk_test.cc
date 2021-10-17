@@ -26,7 +26,8 @@ int main() {
     int nread, final;
 
     VoskModel *model = vosk_model_new("model");
-    VoskRecognizer *recognizer = vosk_recognizer_new(model, 16000.0);
+    VoskSpkModel *spk_model = vosk_spk_model_new("spk-model");
+    VoskRecognizer *recognizer = vosk_recognizer_new_spk(model, spk_model, 16000.0);
 
     wavin = fopen("test.wav", "rb");
     fseek(wavin, 44, SEEK_SET);
@@ -42,6 +43,7 @@ int main() {
     printf("%s\n", vosk_recognizer_final_result(recognizer));
 
     vosk_recognizer_free(recognizer);
+    vosk_spk_model_free(spk_model);
     vosk_model_free(model);
     fclose(wavin);
     return 0;

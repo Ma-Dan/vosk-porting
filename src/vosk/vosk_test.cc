@@ -1,4 +1,4 @@
-#include <vosk_api.h>
+#include "vosk_api.h"
 #include <stdio.h>
 #include <signal.h>
 
@@ -29,7 +29,7 @@ int main() {
     VoskSpkModel *spk_model = vosk_spk_model_new("spk-model");
     VoskRecognizer *recognizer = vosk_recognizer_new_spk(model, spk_model, 16000.0);
 
-    wavin = fopen("test.wav", "rb");
+    fopen_s(&wavin, "test.wav", "rb");
     fseek(wavin, 44, SEEK_SET);
     while (!feof(wavin)) {
          nread = fread(buf, 1, sizeof(buf), wavin);

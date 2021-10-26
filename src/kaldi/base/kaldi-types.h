@@ -32,7 +32,7 @@ typedef float   BaseFloat;
 
 #ifdef _MSC_VER
 #include <basetsd.h>
-#define ssize_t SSIZE_T
+//#define ssize_t SSIZE_T
 #endif
 
 // we can do this a different way if some platform

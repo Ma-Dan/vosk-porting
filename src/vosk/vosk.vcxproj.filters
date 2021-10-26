@@ -1,0 +1,1695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="kaldi">
+      <UniqueIdentifier>{b11e9c42-4f5d-4667-992a-a68395825ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\base">
+      <UniqueIdentifier>{3d81914a-da16-4daf-a75b-5bbf5ae1669a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\chain">
+      <UniqueIdentifier>{75ea20fe-46f9-4628-9d67-12ad4de077cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\cudamatrix">
+      <UniqueIdentifier>{17ade928-e65e-4775-a9af-bff6bbf4ce63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\decoder">
+      <UniqueIdentifier>{39e6901e-f235-48b2-9bbc-a6580732b8b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\feat">
+      <UniqueIdentifier>{2bbe9059-a3d8-4f39-ab9e-05ef8733646e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\fstext">
+      <UniqueIdentifier>{9842d0dd-6973-486b-8bae-b69f527fdca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\gmm">
+      <UniqueIdentifier>{01292bbd-0bc6-422a-81aa-28c22a7ab80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\hmm">
+      <UniqueIdentifier>{5cf0f2b7-b0dc-44c3-80dd-03f48f9c6aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\itf">
+      <UniqueIdentifier>{e152f74e-44f8-4e58-9539-625cf914af8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\ivector">
+      <UniqueIdentifier>{53e19709-0d9e-489e-a985-2eb08ebfbfaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\lat">
+      <UniqueIdentifier>{0c44f2e7-8d97-4886-9879-e87a9aa31d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\lm">
+      <UniqueIdentifier>{0bebeb1c-aa6c-4e83-a14d-5ff702f29407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\matrix">
+      <UniqueIdentifier>{f15849ac-1faf-4138-ad71-ba8d3593a15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\nnet2">
+      <UniqueIdentifier>{4b7172f6-6705-4928-8f82-cbb00ca6dd3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\nnet3">
+      <UniqueIdentifier>{2d2068ae-ede7-4e63-8a34-d519e232bb2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\online2">
+      <UniqueIdentifier>{451c50ca-6f0c-47ab-83a0-c030da20e4b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\rnnlm">
+      <UniqueIdentifier>{bfd8de7b-5f80-4baa-8198-512698dde393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\transform">
+      <UniqueIdentifier>{970fc4b0-642d-46c9-9e36-df1df3d88409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\tree">
+      <UniqueIdentifier>{562331d5-2cfb-49be-be06-f7c62ae30ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kaldi\util">
+      <UniqueIdentifier>{b5852a00-ad13-4667-98ea-d55c3c57d8ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="json.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kaldi_recognizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="language_model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="spk_model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vosk_api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\base\io-funcs.h">
+      <Filter>kaldi\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\base\io-funcs-inl.h">
+      <Filter>kaldi\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\base\kaldi-common.h">
+      <Filter>kaldi\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\base\kaldi-error.h">
+      <Filter>kaldi\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\base\kaldi-math.h">
+      <Filter>kaldi\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\base\kaldi-types.h">
+      <Filter>kaldi\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\base\kaldi-utils.h">
+      <Filter>kaldi\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\base\timer.h">
+      <Filter>kaldi\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\base\version.h">
+      <Filter>kaldi\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\chain\chain-datastruct.h">
+      <Filter>kaldi\chain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\chain\chain-den-graph.h">
+      <Filter>kaldi\chain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\chain\chain-denominator.h">
+      <Filter>kaldi\chain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\chain\chain-generic-numerator.h">
+      <Filter>kaldi\chain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\chain\chain-kernels-ansi.h">
+      <Filter>kaldi\chain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\chain\chain-numerator.h">
+      <Filter>kaldi\chain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\chain\chain-supervision.h">
+      <Filter>kaldi\chain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\chain\chain-training.h">
+      <Filter>kaldi\chain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\chain\language-model.h">
+      <Filter>kaldi\chain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-allocator.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-array.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-array-inl.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cublas-wrappers.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-block-matrix.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-common.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-compressed-matrix.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-device.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-kernels.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-kernels-ansi.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-math.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-matrix.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-matrixdim.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-matrix-inl.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-matrix-lib.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-packed-matrix.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-rand.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-sparse-matrix.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-sp-matrix.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-tp-matrix.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-value.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\cudamatrix\cu-vector.h">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\biglm-faster-decoder.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\decodable-mapped.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\decodable-matrix.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\decodable-sum.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\decoder-wrappers.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\faster-decoder.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\grammar-fst.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\lattice-biglm-faster-decoder.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\lattice-faster-decoder.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\lattice-faster-online-decoder.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\lattice-incremental-decoder.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\lattice-incremental-online-decoder.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\lattice-simple-decoder.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\simple-decoder.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\decoder\training-graph-compiler.h">
+      <Filter>kaldi\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\feat\feature-common.h">
+      <Filter>kaldi\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\feat\feature-common-inl.h">
+      <Filter>kaldi\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\feat\feature-fbank.h">
+      <Filter>kaldi\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\feat\feature-functions.h">
+      <Filter>kaldi\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\feat\feature-mfcc.h">
+      <Filter>kaldi\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\feat\feature-plp.h">
+      <Filter>kaldi\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\feat\feature-spectrogram.h">
+      <Filter>kaldi\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\feat\feature-window.h">
+      <Filter>kaldi\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\feat\mel-computations.h">
+      <Filter>kaldi\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\feat\online-feature.h">
+      <Filter>kaldi\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\feat\pitch-functions.h">
+      <Filter>kaldi\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\feat\resample.h">
+      <Filter>kaldi\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\feat\signal.h">
+      <Filter>kaldi\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\feat\wave-reader.h">
+      <Filter>kaldi\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\context-fst.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\deterministic-fst.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\deterministic-fst-inl.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\determinize-lattice.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\determinize-lattice-inl.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\determinize-star.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\determinize-star-inl.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\epsilon-property.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\epsilon-property-inl.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\factor.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\factor-inl.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\fstext-lib.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\fstext-utils.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\fstext-utils-inl.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\fst-test-utils.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\grammar-context-fst.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\kaldi-fst-io.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\kaldi-fst-io-inl.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\lattice-utils.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\lattice-utils-inl.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\lattice-weight.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\pre-determinize.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\pre-determinize-inl.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\prune-special.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\prune-special-inl.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\push-special.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\rand-fst.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\remove-eps-local.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\remove-eps-local-inl.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\table-matcher.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\fstext\trivial-factor-weight.h">
+      <Filter>kaldi\fstext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\gmm\am-diag-gmm.h">
+      <Filter>kaldi\gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\gmm\decodable-am-diag-gmm.h">
+      <Filter>kaldi\gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\gmm\diag-gmm.h">
+      <Filter>kaldi\gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\gmm\diag-gmm-inl.h">
+      <Filter>kaldi\gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\gmm\diag-gmm-normal.h">
+      <Filter>kaldi\gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\gmm\ebw-diag-gmm.h">
+      <Filter>kaldi\gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\gmm\full-gmm.h">
+      <Filter>kaldi\gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\gmm\full-gmm-inl.h">
+      <Filter>kaldi\gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\gmm\full-gmm-normal.h">
+      <Filter>kaldi\gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\gmm\indirect-diff-diag-gmm.h">
+      <Filter>kaldi\gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\gmm\mle-am-diag-gmm.h">
+      <Filter>kaldi\gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\gmm\mle-diag-gmm.h">
+      <Filter>kaldi\gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\gmm\mle-full-gmm.h">
+      <Filter>kaldi\gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\gmm\model-common.h">
+      <Filter>kaldi\gmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\hmm\hmm-topology.h">
+      <Filter>kaldi\hmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\hmm\hmm-utils.h">
+      <Filter>kaldi\hmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\hmm\posterior.h">
+      <Filter>kaldi\hmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\hmm\transition-model.h">
+      <Filter>kaldi\hmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\hmm\tree-accu.h">
+      <Filter>kaldi\hmm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\itf\clusterable-itf.h">
+      <Filter>kaldi\itf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\itf\context-dep-itf.h">
+      <Filter>kaldi\itf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\itf\decodable-itf.h">
+      <Filter>kaldi\itf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\itf\online-feature-itf.h">
+      <Filter>kaldi\itf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\itf\optimizable-itf.h">
+      <Filter>kaldi\itf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\itf\options-itf.h">
+      <Filter>kaldi\itf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\ivector\agglomerative-clustering.h">
+      <Filter>kaldi\ivector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\ivector\ivector-extractor.h">
+      <Filter>kaldi\ivector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\ivector\logistic-regression.h">
+      <Filter>kaldi\ivector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\ivector\plda.h">
+      <Filter>kaldi\ivector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\ivector\voice-activity-detection.h">
+      <Filter>kaldi\ivector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lat\arctic-weight.h">
+      <Filter>kaldi\lat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lat\compose-lattice-pruned.h">
+      <Filter>kaldi\lat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lat\confidence.h">
+      <Filter>kaldi\lat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lat\determinize-lattice-pruned.h">
+      <Filter>kaldi\lat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lat\kaldi-lattice.h">
+      <Filter>kaldi\lat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lat\lattice-functions.h">
+      <Filter>kaldi\lat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lat\minimize-lattice.h">
+      <Filter>kaldi\lat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lat\phone-align-lattice.h">
+      <Filter>kaldi\lat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lat\push-lattice.h">
+      <Filter>kaldi\lat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lat\sausages.h">
+      <Filter>kaldi\lat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lat\word-align-lattice.h">
+      <Filter>kaldi\lat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lat\word-align-lattice-lexicon.h">
+      <Filter>kaldi\lat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lm\arpa-file-parser.h">
+      <Filter>kaldi\lm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lm\arpa-lm-compiler.h">
+      <Filter>kaldi\lm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lm\const-arpa-lm.h">
+      <Filter>kaldi\lm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lm\kaldi-rnnlm.h">
+      <Filter>kaldi\lm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lm\kenlm.h">
+      <Filter>kaldi\lm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\lm\mikolov-rnnlm-lib.h">
+      <Filter>kaldi\lm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\cblas-wrappers.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\compressed-matrix.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\jama-eig.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\jama-svd.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\kaldi-blas.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\kaldi-matrix.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\kaldi-matrix-inl.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\kaldi-vector.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\kaldi-vector-inl.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\matrix-common.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\matrix-functions.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\matrix-functions-inl.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\matrix-lib.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\numpy-array.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\optimization.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\packed-matrix.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\sparse-matrix.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\sp-matrix.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\sp-matrix-inl.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\srfft.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\matrix\tp-matrix.h">
+      <Filter>kaldi\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\am-nnet.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\combine-nnet.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\combine-nnet-a.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\combine-nnet-fast.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\decodable-am-nnet.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\get-feature-transform.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\mixup-nnet.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-component.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-compute.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-compute-discriminative.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-compute-discriminative-parallel.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-compute-online.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-example.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-example-functions.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-fix.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-functions.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-limit-rank.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-nnet.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-precondition.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-precondition-online.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-stats.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-update.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\nnet-update-parallel.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\online-nnet2-decodable.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\rescale-nnet.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\shrink-nnet.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\train-nnet.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\train-nnet-ensemble.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet2\widen-nnet.h">
+      <Filter>kaldi\nnet2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\am-nnet-simple.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\attention.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\convolution.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\decodable-online-looped.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\decodable-simple-looped.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\discriminative-supervision.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\discriminative-training.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\natural-gradient-online.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-am-decodable-simple.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-analyze.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-attention-component.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-batch-compute.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-chain-diagnostics.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-chain-diagnostics2.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-chain-example.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-chain-training.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-chain-training2.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-combined-component.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-common.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-compile.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-compile-looped.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-compile-utils.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-component-itf.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-computation.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-computation-graph.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-compute.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-convolutional-component.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-descriptor.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-diagnostics.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-discriminative-diagnostics.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-discriminative-example.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-discriminative-training.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-example.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-example-utils.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-general-component.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-graph.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-nnet.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-normalize-component.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-optimize.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-optimize-utils.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-parse.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-simple-component.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-training.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\nnet3\nnet-utils.h">
+      <Filter>kaldi\nnet3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\online2\onlinebin-util.h">
+      <Filter>kaldi\online2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\online2\online-endpoint.h">
+      <Filter>kaldi\online2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\online2\online-feature-pipeline.h">
+      <Filter>kaldi\online2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\online2\online-gmm-decodable.h">
+      <Filter>kaldi\online2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\online2\online-gmm-decoding.h">
+      <Filter>kaldi\online2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\online2\online-ivector-feature.h">
+      <Filter>kaldi\online2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\online2\online-nnet2-decoding.h">
+      <Filter>kaldi\online2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\online2\online-nnet2-decoding-threaded.h">
+      <Filter>kaldi\online2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\online2\online-nnet2-feature-pipeline.h">
+      <Filter>kaldi\online2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\online2\online-nnet3-decoding.h">
+      <Filter>kaldi\online2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\online2\online-nnet3-incremental-decoding.h">
+      <Filter>kaldi\online2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\online2\online-nnet3-wake-word-faster-decoder.h">
+      <Filter>kaldi\online2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\online2\online-speex-wrapper.h">
+      <Filter>kaldi\online2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\online2\online-timing.h">
+      <Filter>kaldi\online2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\rnnlm\rnnlm-utils.h">
+      <Filter>kaldi\rnnlm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\transform\basis-fmllr-diag-gmm.h">
+      <Filter>kaldi\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\transform\cmvn.h">
+      <Filter>kaldi\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\transform\compressed-transform-stats.h">
+      <Filter>kaldi\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\transform\decodable-am-diag-gmm-regtree.h">
+      <Filter>kaldi\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\transform\fmllr-diag-gmm.h">
+      <Filter>kaldi\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\transform\fmllr-raw.h">
+      <Filter>kaldi\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\transform\fmpe.h">
+      <Filter>kaldi\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\transform\lda-estimate.h">
+      <Filter>kaldi\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\transform\lvtln.h">
+      <Filter>kaldi\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\transform\mllt.h">
+      <Filter>kaldi\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\transform\regression-tree.h">
+      <Filter>kaldi\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\transform\regtree-fmllr-diag-gmm.h">
+      <Filter>kaldi\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\transform\regtree-mllr-diag-gmm.h">
+      <Filter>kaldi\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\transform\transform-common.h">
+      <Filter>kaldi\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\tree\build-tree.h">
+      <Filter>kaldi\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\tree\build-tree-questions.h">
+      <Filter>kaldi\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\tree\build-tree-utils.h">
+      <Filter>kaldi\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\tree\clusterable-classes.h">
+      <Filter>kaldi\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\tree\cluster-utils.h">
+      <Filter>kaldi\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\tree\context-dep.h">
+      <Filter>kaldi\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\tree\event-map.h">
+      <Filter>kaldi\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\tree\tree-renderer.h">
+      <Filter>kaldi\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\basic-filebuf.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\common-utils.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\const-integer-set.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\const-integer-set-inl.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\edit-distance.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\edit-distance-inl.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\hash-list.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\hash-list-inl.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\kaldi-cygwin-io-inl.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\kaldi-holder.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\kaldi-holder-inl.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\kaldi-io.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\kaldi-io-inl.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\kaldi-pipebuf.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\kaldi-semaphore.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\kaldi-table.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\kaldi-table-inl.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\kaldi-thread.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\parse-options.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\simple-io-funcs.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\simple-options.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\stl-utils.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\table-types.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kaldi\util\text-utils.h">
+      <Filter>kaldi\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kaldi_recognizer.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="language_model.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spk_model.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vosk_api.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vosk_test.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\base\io-funcs.cc">
+      <Filter>kaldi\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\base\kaldi-error.cc">
+      <Filter>kaldi\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\base\kaldi-math.cc">
+      <Filter>kaldi\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\base\kaldi-utils.cc">
+      <Filter>kaldi\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\base\timer.cc">
+      <Filter>kaldi\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\chain\chain-den-graph.cc">
+      <Filter>kaldi\chain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\chain\chain-denominator.cc">
+      <Filter>kaldi\chain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\chain\chain-generic-numerator.cc">
+      <Filter>kaldi\chain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\chain\chain-numerator.cc">
+      <Filter>kaldi\chain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\chain\chain-supervision.cc">
+      <Filter>kaldi\chain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\chain\chain-training.cc">
+      <Filter>kaldi\chain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\chain\language-model.cc">
+      <Filter>kaldi\chain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\cudamatrix\cu-allocator.cc">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\cudamatrix\cu-array.cc">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\cudamatrix\cu-block-matrix.cc">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\cudamatrix\cu-common.cc">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\cudamatrix\cu-compressed-matrix.cc">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\cudamatrix\cu-device.cc">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\cudamatrix\cu-math.cc">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\cudamatrix\cu-matrix.cc">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\cudamatrix\cu-packed-matrix.cc">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\cudamatrix\cu-rand.cc">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\cudamatrix\cu-sparse-matrix.cc">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\cudamatrix\cu-sp-matrix.cc">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\cudamatrix\cu-tp-matrix.cc">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\cudamatrix\cu-vector.cc">
+      <Filter>kaldi\cudamatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\decoder\decodable-matrix.cc">
+      <Filter>kaldi\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\decoder\decoder-wrappers.cc">
+      <Filter>kaldi\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\decoder\faster-decoder.cc">
+      <Filter>kaldi\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\decoder\grammar-fst.cc">
+      <Filter>kaldi\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\decoder\lattice-faster-decoder.cc">
+      <Filter>kaldi\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\decoder\lattice-faster-online-decoder.cc">
+      <Filter>kaldi\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\decoder\lattice-incremental-decoder.cc">
+      <Filter>kaldi\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\decoder\lattice-incremental-online-decoder.cc">
+      <Filter>kaldi\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\decoder\lattice-simple-decoder.cc">
+      <Filter>kaldi\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\decoder\simple-decoder.cc">
+      <Filter>kaldi\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\decoder\training-graph-compiler.cc">
+      <Filter>kaldi\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\feat\feature-fbank.cc">
+      <Filter>kaldi\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\feat\feature-functions.cc">
+      <Filter>kaldi\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\feat\feature-mfcc.cc">
+      <Filter>kaldi\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\feat\feature-plp.cc">
+      <Filter>kaldi\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\feat\feature-spectrogram.cc">
+      <Filter>kaldi\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\feat\feature-window.cc">
+      <Filter>kaldi\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\feat\mel-computations.cc">
+      <Filter>kaldi\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\feat\online-feature.cc">
+      <Filter>kaldi\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\feat\pitch-functions.cc">
+      <Filter>kaldi\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\feat\resample.cc">
+      <Filter>kaldi\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\feat\signal.cc">
+      <Filter>kaldi\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\feat\wave-reader.cc">
+      <Filter>kaldi\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\fstext\context-fst.cc">
+      <Filter>kaldi\fstext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\fstext\grammar-context-fst.cc">
+      <Filter>kaldi\fstext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\fstext\kaldi-fst-io.cc">
+      <Filter>kaldi\fstext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\fstext\push-special.cc">
+      <Filter>kaldi\fstext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\gmm\am-diag-gmm.cc">
+      <Filter>kaldi\gmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\gmm\decodable-am-diag-gmm.cc">
+      <Filter>kaldi\gmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\gmm\diag-gmm.cc">
+      <Filter>kaldi\gmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\gmm\diag-gmm-normal.cc">
+      <Filter>kaldi\gmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\gmm\ebw-diag-gmm.cc">
+      <Filter>kaldi\gmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\gmm\full-gmm.cc">
+      <Filter>kaldi\gmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\gmm\full-gmm-normal.cc">
+      <Filter>kaldi\gmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\gmm\indirect-diff-diag-gmm.cc">
+      <Filter>kaldi\gmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\gmm\mle-am-diag-gmm.cc">
+      <Filter>kaldi\gmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\gmm\mle-diag-gmm.cc">
+      <Filter>kaldi\gmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\gmm\mle-full-gmm.cc">
+      <Filter>kaldi\gmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\gmm\model-common.cc">
+      <Filter>kaldi\gmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\hmm\hmm-topology.cc">
+      <Filter>kaldi\hmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\hmm\hmm-utils.cc">
+      <Filter>kaldi\hmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\hmm\posterior.cc">
+      <Filter>kaldi\hmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\hmm\transition-model.cc">
+      <Filter>kaldi\hmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\hmm\tree-accu.cc">
+      <Filter>kaldi\hmm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\ivector\agglomerative-clustering.cc">
+      <Filter>kaldi\ivector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\ivector\ivector-extractor.cc">
+      <Filter>kaldi\ivector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\ivector\logistic-regression.cc">
+      <Filter>kaldi\ivector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\ivector\plda.cc">
+      <Filter>kaldi\ivector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\ivector\voice-activity-detection.cc">
+      <Filter>kaldi\ivector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lat\compose-lattice-pruned.cc">
+      <Filter>kaldi\lat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lat\confidence.cc">
+      <Filter>kaldi\lat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lat\determinize-lattice-pruned.cc">
+      <Filter>kaldi\lat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lat\kaldi-lattice.cc">
+      <Filter>kaldi\lat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lat\lattice-functions.cc">
+      <Filter>kaldi\lat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lat\minimize-lattice.cc">
+      <Filter>kaldi\lat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lat\phone-align-lattice.cc">
+      <Filter>kaldi\lat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lat\push-lattice.cc">
+      <Filter>kaldi\lat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lat\sausages.cc">
+      <Filter>kaldi\lat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lat\word-align-lattice.cc">
+      <Filter>kaldi\lat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lat\word-align-lattice-lexicon.cc">
+      <Filter>kaldi\lat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lm\arpa-file-parser.cc">
+      <Filter>kaldi\lm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lm\arpa-lm-compiler.cc">
+      <Filter>kaldi\lm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lm\const-arpa-lm.cc">
+      <Filter>kaldi\lm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lm\kaldi-rnnlm.cc">
+      <Filter>kaldi\lm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lm\kenlm.cc">
+      <Filter>kaldi\lm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\lm\mikolov-rnnlm-lib.cc">
+      <Filter>kaldi\lm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\matrix\compressed-matrix.cc">
+      <Filter>kaldi\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\matrix\kaldi-matrix.cc">
+      <Filter>kaldi\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\matrix\kaldi-vector.cc">
+      <Filter>kaldi\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\matrix\matrix-functions.cc">
+      <Filter>kaldi\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\matrix\numpy-array.cc">
+      <Filter>kaldi\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\matrix\optimization.cc">
+      <Filter>kaldi\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\matrix\packed-matrix.cc">
+      <Filter>kaldi\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\matrix\qr.cc">
+      <Filter>kaldi\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\matrix\sparse-matrix.cc">
+      <Filter>kaldi\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\matrix\sp-matrix.cc">
+      <Filter>kaldi\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\matrix\srfft.cc">
+      <Filter>kaldi\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\matrix\tp-matrix.cc">
+      <Filter>kaldi\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\am-nnet.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\combine-nnet.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\combine-nnet-a.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\combine-nnet-fast.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\get-feature-transform.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\mixup-nnet.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet-component.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet-compute-discriminative.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet-compute-discriminative-parallel.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet-compute-online.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet-example-functions.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet-fix.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet-functions.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet-limit-rank.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet-precondition.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet-precondition-online.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet-stats.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet-update.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet-update-parallel.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\online-nnet2-decodable.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\rescale-nnet.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\shrink-nnet.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\train-nnet.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\train-nnet-ensemble.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\widen-nnet.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\am-nnet-simple.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\attention.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\convolution.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\decodable-online-looped.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\decodable-simple-looped.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\discriminative-supervision.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\discriminative-training.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\natural-gradient-online.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-am-decodable-simple.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-analyze.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-attention-component.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-batch-compute.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-chain-diagnostics.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-chain-diagnostics2.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-chain-example.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-chain-training.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-chain-training2.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-combined-component.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-common.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-compile.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-compile-looped.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-compile-utils.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-component-itf.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-computation.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-computation-graph.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-compute.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-convolutional-component.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-descriptor.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-diagnostics.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-discriminative-diagnostics.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-discriminative-example.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-discriminative-training.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-example.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-example-utils.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-general-component.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-graph.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-nnet.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-normalize-component.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-optimize.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-optimize-utils.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-parse.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-simple-component.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-tdnn-component.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-training.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet3\nnet-utils.cc">
+      <Filter>kaldi\nnet3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\online2\onlinebin-util.cc">
+      <Filter>kaldi\online2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\online2\online-endpoint.cc">
+      <Filter>kaldi\online2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\online2\online-feature-pipeline.cc">
+      <Filter>kaldi\online2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\online2\online-gmm-decodable.cc">
+      <Filter>kaldi\online2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\online2\online-gmm-decoding.cc">
+      <Filter>kaldi\online2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\online2\online-ivector-feature.cc">
+      <Filter>kaldi\online2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\online2\online-nnet2-decoding.cc">
+      <Filter>kaldi\online2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\online2\online-nnet2-decoding-threaded.cc">
+      <Filter>kaldi\online2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\online2\online-nnet2-feature-pipeline.cc">
+      <Filter>kaldi\online2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\online2\online-nnet3-decoding.cc">
+      <Filter>kaldi\online2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\online2\online-nnet3-incremental-decoding.cc">
+      <Filter>kaldi\online2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\online2\online-nnet3-wake-word-faster-decoder.cc">
+      <Filter>kaldi\online2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\online2\online-speex-wrapper.cc">
+      <Filter>kaldi\online2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\online2\online-timing.cc">
+      <Filter>kaldi\online2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\transform\basis-fmllr-diag-gmm.cc">
+      <Filter>kaldi\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\transform\cmvn.cc">
+      <Filter>kaldi\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\transform\compressed-transform-stats.cc">
+      <Filter>kaldi\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\transform\decodable-am-diag-gmm-regtree.cc">
+      <Filter>kaldi\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\transform\fmllr-diag-gmm.cc">
+      <Filter>kaldi\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\transform\fmllr-raw.cc">
+      <Filter>kaldi\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\transform\fmpe.cc">
+      <Filter>kaldi\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\transform\lda-estimate.cc">
+      <Filter>kaldi\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\transform\lvtln.cc">
+      <Filter>kaldi\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\transform\mllt.cc">
+      <Filter>kaldi\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\transform\regression-tree.cc">
+      <Filter>kaldi\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\transform\regtree-fmllr-diag-gmm.cc">
+      <Filter>kaldi\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\transform\regtree-mllr-diag-gmm.cc">
+      <Filter>kaldi\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\transform\transform-common.cc">
+      <Filter>kaldi\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\tree\build-tree.cc">
+      <Filter>kaldi\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\tree\build-tree-questions.cc">
+      <Filter>kaldi\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\tree\build-tree-utils.cc">
+      <Filter>kaldi\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\tree\clusterable-classes.cc">
+      <Filter>kaldi\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\tree\cluster-utils.cc">
+      <Filter>kaldi\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\tree\context-dep.cc">
+      <Filter>kaldi\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\tree\event-map.cc">
+      <Filter>kaldi\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\tree\tree-renderer.cc">
+      <Filter>kaldi\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\util\kaldi-holder.cc">
+      <Filter>kaldi\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\util\kaldi-io.cc">
+      <Filter>kaldi\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\util\kaldi-semaphore.cc">
+      <Filter>kaldi\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\util\kaldi-table.cc">
+      <Filter>kaldi\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\util\kaldi-thread.cc">
+      <Filter>kaldi\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\util\parse-options.cc">
+      <Filter>kaldi\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\util\simple-io-funcs.cc">
+      <Filter>kaldi\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\util\simple-options.cc">
+      <Filter>kaldi\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\util\text-utils.cc">
+      <Filter>kaldi\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet2-nnet.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet2-example.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kaldi\nnet2\nnet2-compute.cc">
+      <Filter>kaldi\nnet2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

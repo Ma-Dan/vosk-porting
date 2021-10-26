@@ -936,8 +936,8 @@ void SpMatrix<Real>::AddVec2Sp(const Real alpha, const VectorBase<Real> &v,
 template<>
 template<>
 void SpMatrix<double>::AddVec2(const double alpha, const VectorBase<double> &v) {
-  KALDI_ASSERT(v.Dim() == num_rows_);
-  cblas_Xspr(v.Dim(), alpha, v.Data(), 1, data_);
+  KALDI_ASSERT(v.Dim() == this->num_rows_);
+  cblas_Xspr(v.Dim(), alpha, v.Data(), 1, this->data_);
 }
 
 

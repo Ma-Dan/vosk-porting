@@ -6,6 +6,8 @@ A project based on [https://github.com/alphacep/vosk-api](https://github.com/alp
 
 ## Dependencies
 
-OpenBLAS v0.3.13 https://github.com/xianyi/OpenBLAS/releases/
+OpenBLAS v0.2.14 http://sourceforge.net/projects/openblas/files/v0.2.14/OpenBLAS-v0.2.14-Win64-int32.zip
 
-OpenFST v1.6.7 http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.6.7.tar.gz
+MinGW64 https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/seh/
+
+OpenFST Windows https://github.com/kkm000/openfst

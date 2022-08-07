@@ -1,4 +1,4 @@
 // This file was automatically created by ./get_version.sh.
 // It is only included by ./kaldi-error.cc.
-#define KALDI_VERSION "5.5.899-3d0e4313"
-#define KALDI_GIT_HEAD "3d0e43130a01112cd2fb493bfc3abd9ac2112740"
+#define KALDI_VERSION "5.5.1038~1-9af2c"
+#define KALDI_GIT_HEAD "9af2c5c16389e141f527ebde7ee432a0c1df9fb9"
